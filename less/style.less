@@ -1,6 +1,54 @@
 
 @import "bootstrap/bootstrap.less";
 
-body {
-  
+@grid-gutter-width:         20px;
+
+.header {
+  margin-bottom: @grid-gutter-width;
+}
+
+.logo {
+  height: 70px;
+  background: red;
+}
+
+.content {
+  margin-bottom: @grid-gutter-width;
+}
+
+.nav {
+  margin-bottom: @grid-gutter-width;
+  border: solid blue 1px;
+  li {
+    float: left;
+  }
+}
+
+.banner {
+  height: 100px;
+  margin-bottom: @grid-gutter-width;
+  background: orange;
+}
+
+.data-table {
+  width: 100%;
+  margin-bottom: @grid-gutter-width;
+  td {
+    background: gray;
+    border: solid white 1px;
+  }
+}
+
+.graph {
+  border: solid blue 1px;
+  margin-bottom: @grid-gutter-width;
+}
+
+.filter {
+  border: solid blue 1px;
+  margin-bottom: @grid-gutter-width;
+}
+
+.footer {
+  background: #cccccc;
 }
